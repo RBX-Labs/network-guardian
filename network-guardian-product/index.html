@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Network Guardian — Pre-Connection Wi-Fi Trust</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600;700&amp;family=Inter+Tight:wght@400;500;600&amp;family=Space+Mono:wght@400;600&amp;display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="bg-layers"></div>
+
+  <header class="ng-nav">
+    <div class="ng-logo">
+      <img src="../shield.png" alt="Network Guardian" />
+      <div>
+        <div class="ng-logo-title">Network Guardian</div>
+        <div class="ng-logo-subtitle">Pre-Connection Wi-Fi Trust</div>
+      </div>
+    </div>
+    <nav class="ng-links">
+      <a href="../index.html">RBX Labs</a>
+      <a href="#home">Home</a>
+      <a href="#why">Why now</a>
+      <a href="#diagram">How it works</a>
+      <a href="#waitlist" class="pill">Join waitlist</a>
+    </nav>
+  </header>
+
+  <main class="ng-main">
+    <section class="ng-hero" id="home">
+      <div class="hero-left">
+        <p class="eyebrow">PUBLIC WI-FI, REIMAGINED</p>
+        <h1>
+          Make Wi-Fi decisions
+          <span class="gradient-text">before you connect</span>,
+          not after damage is done.
+        </h1>
+        <p class="ng-hero-subtitle">
+          Public Wi-Fi is the world’s largest unprotected attack surface.
+          Network Guardian introduces the first
+          <strong>Pre-Connection Wi-Fi Trust Score (0–100)</strong> —
+          evaluating security, stability, and reputation before the handshake.
+        </p>
+
+        <div class="ng-hero-actions">
+          <a class="btn btn-primary" href="#waitlist">Start a pilot conversation</a>
+          <a class="btn btn-ghost" href="#diagram">See how it works</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="hero-stack">
+          <div class="counter-row">
+            <div class="scan-counter" data-counter-id="unique" data-target-count="60">
+              <div class="counter-label">Unique Wi-Fi scanned so far</div>
+              <div class="counter-value"><span id="scan-count">0</span></div>
+            </div>
+            <div class="scan-counter" data-counter-id="community" data-target-count="500">
+              <div class="counter-label">Community reports contributed</div>
+              <div class="counter-value"><span id="community-count">0</span></div>
+            </div>
+          </div>
+
+          <div class="metric-grid">
+            <div class="metric-card">
+              <div class="metric-number">Real-time scans</div>
+              <div class="metric-label">Edge processed</div>
+            </div>
+            <div class="metric-card">
+              <div class="metric-number">Transparency</div>
+              <div class="metric-label">Scores + signals exposed</div>
+            </div>
+          </div>
+
+          <div class="principles-row">
+            <span class="principle-chip">Clarity before connection</span>
+            <span class="principle-chip">Transparent scoring</span>
+            <span class="principle-chip">Edge-fast decisions</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="built-for hero-built-for">
+        <span class="pill-label">Built for</span>
+        <div class="pill-row">
+          <span class="pill">VPNs</span>
+          <span class="pill">Travel apps</span>
+          <span class="pill">Telcos</span>
+          <span class="pill">Router OEMs</span>
+          <span class="pill">Digital nomads</span>
+          <span class="pill">Business owners</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="ng-why">
+      <div class="why-header">
+        <p class="eyebrow">Why now</p>
+        <h2>The missing trust layer for public Wi-Fi</h2>
+        <p class="ng-hero-subtitle compact">
+          Before Network Guardian, users guessed. Now they see a decisionable score before a single packet leaves the device.
+        </p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-label">Global attack surface</div>
+          <p>Billions of public hotspots behave differently across airports, hotels, transit, and cafes. One trust layer needs to see them all.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Spoofing on the rise</div>
+          <p>Rogue SSIDs and fake captive portals target travelers and remote teams. Pre-connection checks stop the join before damage.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Enterprise readiness</div>
+          <p>Scores are portable via SDK/API, so VPNs, telcos, and apps can steer users to safe networks automatically.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ng-how" id="diagram">
+      <div class="how-header">
+        <p class="eyebrow">How Network Guardian works</p>
+        <h2>Pre-connection trust engine</h2>
+        <p class="ng-hero-subtitle compact">
+          Network Guardian evaluates Wi-Fi safety <strong>before</strong> your device connects. VPNs only act <strong>after</strong> risk is already present.
+        </p>
+      </div>
+
+      <div class="how-grid two-col">
+        <div class="modes-stack">
+          <div class="mode-card">
+            <h4 class="mode-title">Express scan (free)</h4>
+            <p>Fast trust score before you join. Ideal for travelers and coffee-shop work sessions.</p>
+          </div>
+          <div class="mode-card">
+            <h4 class="mode-title">Detailed scan (paid)</h4>
+            <p>Expanded telemetry for teams, VPNs, and telcos that need to decide on behalf of users.</p>
+          </div>
+          <div class="mode-card">
+            <h4 class="mode-title">Community signals</h4>
+            <p>Aggregated reputation + recent reports to show when a network has been validated or flagged.</p>
+          </div>
+          <div class="mode-card">
+            <h4 class="mode-title">Transparent scoring</h4>
+            <p>Security, Stability, Reputation, and Anomaly — surfaced the same way you see in the app.</p>
+          </div>
+        </div>
+
+        <div class="how-card">
+          <div class="intent-card elevated">
+            <div class="intent-header">
+              <div>
+                <p class="card-eyebrow">Pre-connection trust engine</p>
+                <h3>Decide before the handshake</h3>
+              </div>
+            </div>
+            <ul class="two-col-list">
+              <li><span class="micro-label">Security</span> Rogue access point detection</li>
+              <li><span class="micro-label">Anomaly</span> DNS &amp; TLS anomaly detection</li>
+              <li><span class="micro-label">Stability</span> Latency, jitter &amp; packet-loss forecasting</li>
+              <li><span class="micro-label">Reputation</span> Global Wi-Fi reputation graph</li>
+            </ul>
+            <div class="gauge-block">
+              <div class="gauge" style="--gauge:0.85;" data-gauge="0.85">
+                <div class="gauge-donut"></div>
+                <div class="gauge-center">
+                  <div class="gauge-value">85</div>
+                  <div class="gauge-label">Secure</div>
+                </div>
+              </div>
+              <div class="gauge-pills compact">
+                <div class="stat-pill centered">
+                  <span class="pill-label">Trust score</span>
+                  <span class="pill-value">85</span>
+                </div>
+                <div class="stat-pill centered">
+                  <span class="pill-label">Security</span>
+                  <span class="pill-value">Pass</span>
+                </div>
+              </div>
+              <div class="gauge-stats">
+                <div>
+                  <div class="stat-number">100</div>
+                  <div class="stat-label">Security</div>
+                </div>
+                <div>
+                  <div class="stat-number">76</div>
+                  <div class="stat-label">Stability</div>
+                </div>
+                <div>
+                  <div class="stat-number">54</div>
+                  <div class="stat-label">Community</div>
+                </div>
+              </div>
+              <div class="intent-footer">
+                <a class="btn btn-primary btn-sm" href="#waitlist">Start pilot</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="waitlist-band" id="waitlist">
+      <div class="waitlist-content">
+        <p class="eyebrow">Pilot interest</p>
+        <h2>Bring pre-connection Wi-Fi trust into your product stack.</h2>
+        <p class="ng-hero-subtitle compact">Use this as the dedicated product landing page while RBX Labs remains the parent homepage.</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
