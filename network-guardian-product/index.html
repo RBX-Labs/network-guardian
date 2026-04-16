@@ -254,6 +254,11 @@
                   <div class="stat-label">Community</div>
                 </div>
               </div>
+              <div class="gauge-legend" aria-label="Trust score thresholds">
+                <span><strong>Safe</strong> 85-100</span>
+                <span><strong>Caution</strong> 60-84</span>
+                <span><strong>Unsafe</strong> 0-59</span>
+              </div>
             </div>
           </div>
         </div>
@@ -380,6 +385,16 @@
         <p class="eyebrow">The founder</p>
         <h2>Built by someone who has lived network operations and AI trust systems</h2>
       </div>
+      <div class="founder-profile">
+        <div class="about-photo-wrap founder-photo-wrap">
+          <img class="about-photo founder-photo" src="../headshot.jpeg" alt="Rishabh Banga" />
+        </div>
+        <div class="intent-card founder-intro">
+          <p class="ng-hero-subtitle compact">
+            Rishabh Banga brings together telecom operations, BSS systems, and AI trust infrastructure experience, which is exactly the mix behind Network Guardian’s point of view.
+          </p>
+        </div>
+      </div>
       <div class="why-grid founder-grid">
         <div class="why-card">
           <div class="why-label">Ericsson, network operations</div>
@@ -410,10 +425,39 @@
           493 scans, 55+ networks, and a clear path toward a global Wi-Fi trust graph
           for consumers, apps, and infrastructure.
         </p>
-        <div class="ng-hero-actions">
-          <a class="btn btn-primary" href="mailto:hello@rbxlabs.com?subject=Network%20Guardian%20pilot">Discuss a pilot</a>
-          <a class="btn btn-ghost" href="../index.html#selected-builds">Back to RBX Labs</a>
-        </div>
+        <form
+          class="pilot-form"
+          action="mailto:hello@rbxlabs.com?subject=Network%20Guardian%20pilot%20interest"
+          method="post"
+          enctype="text/plain"
+        >
+          <div class="pilot-grid">
+            <label class="field">
+              <span>Name</span>
+              <input type="text" name="name" autocomplete="name" required />
+            </label>
+            <label class="field">
+              <span>Email</span>
+              <input type="email" name="email" autocomplete="email" required />
+            </label>
+            <label class="field">
+              <span>Company</span>
+              <input type="text" name="company" autocomplete="organization" />
+            </label>
+            <label class="field">
+              <span>Use case</span>
+              <input type="text" name="use_case" placeholder="VPN, travel app, telco, enterprise security..." />
+            </label>
+          </div>
+          <label class="field field-wide">
+            <span>What are you trying to solve?</span>
+            <textarea name="notes" rows="4" placeholder="Tell me what product, workflow, or trust problem you want to explore."></textarea>
+          </label>
+          <div class="ng-hero-actions">
+            <button class="btn btn-primary" type="submit">Send pilot interest</button>
+            <a class="btn btn-ghost" href="../index.html#selected-builds">Back to RBX Labs</a>
+          </div>
+        </form>
       </div>
     </section>
   </main>
