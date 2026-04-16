@@ -10,10 +10,13 @@
     href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600;700&amp;family=Inter+Tight:wght@400;500;600&amp;family=Space+Mono:wght@400;600&amp;display=swap"
     rel="stylesheet"
   />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="../styles.css" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <div class="bg-layers"></div>
+  <div class="bg-layers" aria-hidden="true"></div>
+  <div class="grid-orbit" aria-hidden="true"></div>
 
   <header class="ng-nav">
     <div class="ng-logo">
@@ -57,13 +60,13 @@
       <div class="hero-right">
         <div class="hero-stack">
           <div class="counter-row">
-            <div class="scan-counter" data-counter-id="unique" data-target-count="60">
-              <div class="counter-label">Unique Wi-Fi scanned so far</div>
-              <div class="counter-value"><span id="scan-count">0</span></div>
+            <div class="scan-counter">
+              <div class="counter-label">Scans completed</div>
+              <div class="counter-value">500+</div>
             </div>
-            <div class="scan-counter" data-counter-id="community" data-target-count="500">
-              <div class="counter-label">Community reports contributed</div>
-              <div class="counter-value"><span id="community-count">0</span></div>
+            <div class="scan-counter">
+              <div class="counter-label">Networks analyzed</div>
+              <div class="counter-value">60+</div>
             </div>
           </div>
 
@@ -159,6 +162,10 @@
                 <p class="card-eyebrow">Pre-connection trust engine</p>
                 <h3>Decide before the handshake</h3>
               </div>
+              <div class="status-inline">
+                <span class="status-dot" aria-hidden="true"></span>
+                <span class="status-readout">Status: trust model active</span>
+              </div>
             </div>
             <ul class="two-col-list">
               <li><span class="micro-label">Security</span> Rogue access point detection</li>
@@ -167,7 +174,13 @@
               <li><span class="micro-label">Reputation</span> Global Wi-Fi reputation graph</li>
             </ul>
             <div class="gauge-block">
-              <div class="gauge" style="--gauge:0.85;" data-gauge="0.85">
+              <div
+                class="gauge"
+                style="--gauge:0.85;"
+                data-gauge="0.85"
+                role="img"
+                aria-label="Trust score 85 out of 100, secure"
+              >
                 <div class="gauge-donut"></div>
                 <div class="gauge-center">
                   <div class="gauge-value">85</div>
@@ -177,24 +190,24 @@
               <div class="gauge-pills compact">
                 <div class="stat-pill centered">
                   <span class="pill-label">Trust score</span>
-                  <span class="pill-value">85</span>
+                  <span class="pill-value pill-readout">85</span>
                 </div>
                 <div class="stat-pill centered">
                   <span class="pill-label">Security</span>
-                  <span class="pill-value">Pass</span>
+                  <span class="pill-value pill-readout">Pass</span>
                 </div>
               </div>
               <div class="gauge-stats">
                 <div>
-                  <div class="stat-number">100</div>
+                  <div class="stat-number stat-readout">100</div>
                   <div class="stat-label">Security</div>
                 </div>
                 <div>
-                  <div class="stat-number">76</div>
+                  <div class="stat-number stat-readout">76</div>
                   <div class="stat-label">Stability</div>
                 </div>
                 <div>
-                  <div class="stat-number">54</div>
+                  <div class="stat-number stat-readout">54</div>
                   <div class="stat-label">Community</div>
                 </div>
               </div>
@@ -211,9 +224,17 @@
       <div class="waitlist-content">
         <p class="eyebrow">Pilot interest</p>
         <h2>Bring pre-connection Wi-Fi trust into your product stack.</h2>
-        <p class="ng-hero-subtitle compact">Use this as the dedicated product landing page while RBX Labs remains the parent homepage.</p>
+        <p class="ng-hero-subtitle compact">
+          Network Guardian is designed for VPNs, travel apps, connectivity platforms,
+          and operators that need a trust signal before connection happens.
+        </p>
+        <div class="ng-hero-actions">
+          <a class="btn btn-primary" href="mailto:hello@rbxlabs.com?subject=Network%20Guardian%20pilot">Discuss a pilot</a>
+          <a class="btn btn-ghost" href="../index.html#ventures">Back to RBX Labs</a>
+        </div>
       </div>
     </section>
   </main>
+  <script src="../script.js" defer></script>
 </body>
 </html>

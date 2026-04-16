@@ -1,301 +1,100 @@
-/* =====================================================
-   NEX-SAHA v2.1 — NETWORK GUARDIAN LANDING
-   ===================================================== */
-
-:root {
-  --cyan: #5ae6ff;
-  --cyan-deep: #00b8d4;
-  --purple: #c8b2ff;
-  --teal: #14b8a6;
-  --amber: #f59e0b;
-  --navy: #05162a;
-  --panel: #0f2d4e;
-  --white: #f8fafc;
-  --muted: #94a3b8;
-  --xs: 4px;
-  --sm: 8px;
-  --md: 16px;
-  --lg: 24px;
-  --xl: 32px;
-  --xxl: 48px;
-  --xxxl: 64px;
-  --radius: 24px;
-  --border-strong: 2px solid var(--cyan);
-  --border-soft: 1px solid rgba(148,163,184,.35);
-}
-
-* { box-sizing: border-box; }
-html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden;
-}
-
-body {
-  font-family: "Inter Tight", system-ui, sans-serif;
-  color: var(--white);
-  background: var(--navy);
-  min-height: 100vh;
-}
-
-.bg-layers {
-  position: fixed;
-  inset: 0;
-  background:
-    radial-gradient(circle at 20% 18%, rgba(124,58,237,.28), transparent 50%),
-    radial-gradient(circle at 82% 12%, rgba(0,184,212,.22), transparent 45%),
-    radial-gradient(circle at 72% 78%, rgba(20,184,166,.18), transparent 50%);
-  pointer-events: none;
-  z-index: 0;
-  filter: blur(2px);
+.ng-nav,
+.ng-main {
+  position: relative;
+  z-index: 1;
 }
 
 .ng-nav {
-  position: sticky;
-  top: 0;
-  z-index: 3;
-  max-width: 1240px;
-  margin: auto;
-  padding: var(--lg) var(--xl);
+  width: min(var(--max-width), calc(100% - 40px));
+  margin: 0 auto;
+  padding: 24px 0 8px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: var(--space-lg);
   backdrop-filter: blur(16px);
 }
 
 .ng-logo {
-  display: flex;
-  gap: var(--md);
+  display: inline-flex;
   align-items: center;
+  gap: var(--space-md);
 }
 
 .ng-logo img {
   width: 48px;
   height: 48px;
-  border-radius: 14px;
+  border-radius: var(--radius-sm);
   border: var(--border-strong);
-  box-shadow: 0 0 24px rgba(0,229,255,.35);
+  box-shadow: 0 0 24px rgba(0, 229, 255, 0.18);
 }
 
 .ng-logo-title {
-  font-family: "Geist";
+  font-family: "Geist", system-ui, sans-serif;
   font-weight: 700;
 }
 
 .ng-logo-subtitle {
-  font-size: 11px;
-  letter-spacing: .14em;
-  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
   text-transform: uppercase;
+  color: var(--muted);
 }
 
 .ng-links {
   display: flex;
-  gap: var(--md);
   align-items: center;
+  gap: var(--space-md);
   flex-wrap: wrap;
 }
 
 .ng-links a {
-  color: var(--white);
   text-decoration: none;
-  font-size: 13px;
-  letter-spacing: .06em;
+  color: var(--text);
+  font-size: 0.92rem;
 }
 
 .ng-links .pill {
-  border-radius: 999px;
-  border: var(--border-soft);
-  padding: 8px 14px;
-  background: rgba(15,23,42,.7);
+  background: var(--surface-panel);
 }
 
 .ng-main {
-  position: relative;
-  z-index: 1;
-  max-width: 1240px;
-  margin: auto;
-  padding: var(--xxxl) var(--xxl);
+  width: min(var(--max-width), calc(100% - 40px));
+  margin: 0 auto;
+  padding: var(--space-2xl) 0 var(--space-3xl);
+}
+
+.ng-hero,
+.ng-why,
+.ng-how,
+.waitlist-band {
+  margin-bottom: var(--space-3xl);
 }
 
 .ng-hero {
   display: grid;
-  grid-template-columns: 1.1fr .9fr;
-  gap: var(--xxxl);
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: var(--space-3xl);
   align-items: start;
 }
 
-.hero-right {
-  align-self: stretch;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.hero-stack,
+.modes-stack,
+.why-grid,
+.metric-grid,
+.counter-row,
+.gauge-stats {
+  display: grid;
+  gap: var(--space-md);
 }
 
 .hero-stack {
-  width: 100%;
-  max-width: 500px;
-  display: flex;
-  flex-direction: column;
-  gap: var(--md);
-  justify-content: center;
   margin-top: 40px;
 }
 
-.eyebrow {
-  font-size: 12px;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-  color: var(--cyan);
-}
-
-h1, h2, h3, h4 {
-  font-family: "Geist", system-ui, sans-serif;
-}
-
-h1 {
-  font-size: clamp(44px, 7vw, 78px);
-  line-height: .98;
-  letter-spacing: -.04em;
-  margin: 0 0 var(--lg);
-}
-
-.gradient-text {
-  background: linear-gradient(90deg, var(--cyan), var(--purple), var(--teal));
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
-
-.ng-hero-subtitle {
-  color: #d4e4f5;
-  line-height: 1.7;
-  font-size: 18px;
-}
-
-.ng-hero-subtitle.compact {
-  max-width: 760px;
-}
-
-.ng-hero-actions {
-  display: flex;
-  gap: var(--md);
-  flex-wrap: wrap;
-  margin-top: var(--xl);
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 48px;
-  padding: 0 18px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-weight: 600;
-}
-
-.btn-primary {
-  background: linear-gradient(135deg, var(--cyan), var(--teal));
-  color: #02111d;
-  box-shadow: 0 16px 38px rgba(0,229,255,.25);
-}
-
-.btn-ghost {
-  border: var(--border-strong);
-  color: var(--white);
-  background: rgba(2,6,23,.35);
-}
-
-.btn-sm {
-  min-height: 42px;
-}
-
-.counter-row,
 .metric-grid,
-.why-grid,
-.gauge-stats {
-  display: grid;
-  gap: var(--md);
-}
-
-.counter-row,
-.metric-grid {
+.counter-row {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.scan-counter,
-.metric-card,
-.why-card,
-.mode-card,
-.intent-card,
-.waitlist-band {
-  background: rgba(2,6,23,.68);
-  border: 1px solid rgba(0,229,255,.22);
-  border-radius: 18px;
-  box-shadow: 0 14px 36px rgba(0,0,0,.25);
-}
-
-.scan-counter,
-.metric-card,
-.why-card,
-.mode-card {
-  padding: var(--md);
-}
-
-.counter-label,
-.metric-label,
-.why-label,
-.card-eyebrow,
-.micro-label,
-.pill-label,
-.stat-label {
-  color: var(--muted);
-  font-size: 12px;
-  letter-spacing: .08em;
-  text-transform: uppercase;
-}
-
-.counter-value,
-.metric-number,
-.stat-number,
-.gauge-value {
-  font-family: "Geist";
-  font-weight: 700;
-}
-
-.counter-value {
-  font-size: 40px;
-  margin-top: 4px;
-}
-
-.principles-row,
-.pill-row,
-.gauge-pills {
-  display: flex;
-  gap: var(--sm);
-  flex-wrap: wrap;
-}
-
-.principle-chip,
-.pill,
-.stat-pill {
-  padding: 10px 12px;
-  border-radius: 999px;
-  background: rgba(15,23,42,.72);
-  border: 1px solid rgba(0,229,255,.24);
-}
-
-.hero-built-for {
-  grid-column: 1 / -1;
-  margin-top: var(--xl);
-}
-
-.ng-why,
-.ng-how,
-.waitlist-band {
-  margin-top: var(--xxxl);
 }
 
 .why-grid {
@@ -304,46 +103,136 @@ h1 {
 
 .how-grid.two-col {
   display: grid;
-  grid-template-columns: .9fr 1.1fr;
-  gap: var(--xl);
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: var(--space-xl);
 }
 
-.modes-stack {
-  display: grid;
-  gap: var(--md);
+.scan-counter,
+.metric-card,
+.why-card,
+.mode-card,
+.intent-card,
+.waitlist-band {
+  background: var(--surface-panel);
+  border: var(--border-soft);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-rise);
+}
+
+.scan-counter,
+.metric-card,
+.why-card,
+.mode-card {
+  padding: var(--space-md);
+}
+
+.counter-label,
+.why-label,
+.card-eyebrow,
+.pill-label,
+.stat-label {
+  font-family: "Space Mono", monospace;
+  color: var(--muted);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.counter-value,
+.metric-number,
+.pill-readout,
+.stat-readout,
+.gauge-value {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  color: var(--text-strong);
+}
+
+.counter-value {
+  font-size: 2.5rem;
+  margin-top: 4px;
+}
+
+.principles-row,
+.pill-row,
+.gauge-pills,
+.status-inline {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+}
+
+.principle-chip,
+.pill,
+.stat-pill {
+  padding: 10px 12px;
+  border-radius: 999px;
+  background: var(--surface-panel);
+  border: 1px solid rgba(0, 229, 255, 0.2);
+}
+
+.hero-built-for {
+  grid-column: 1 / -1;
 }
 
 .intent-card {
-  padding: var(--xl);
+  padding: var(--space-xl);
+  background: var(--surface-panel-strong);
+  border: var(--border-strong);
+  box-shadow: var(--shadow-cyan);
+}
+
+.intent-header {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-md);
+  align-items: flex-start;
+}
+
+.status-inline {
+  align-items: center;
+}
+
+.status-readout {
+  font-family: "Space Mono", monospace;
+  color: var(--text-strong);
 }
 
 .two-col-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: var(--md);
+  gap: var(--space-md);
   padding-left: 18px;
 }
 
+.two-col-list li {
+  color: var(--slate-light);
+  line-height: 1.6;
+}
+
 .gauge-block {
-  margin-top: var(--lg);
-  padding: var(--md);
-  border-radius: 14px;
-  background: rgba(2,6,23,.6);
-  border: 1px solid rgba(148,163,184,.2);
+  margin-top: var(--space-lg);
+  padding: var(--space-md);
+  border-radius: var(--radius-sm);
+  background: var(--surface-soft);
+  border: var(--border-soft);
 }
 
 .gauge {
   position: relative;
   width: 180px;
   aspect-ratio: 1 / 1;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .gauge-donut {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background: conic-gradient(var(--cyan) 0deg 306deg, rgba(148,163,184,.2) 306deg 360deg);
+  background: conic-gradient(
+    var(--cyan) 0deg calc(var(--gauge, 0) * 360deg),
+    rgba(148, 163, 184, 0.2) calc(var(--gauge, 0) * 360deg) 360deg
+  );
   -webkit-mask: radial-gradient(farthest-side, transparent 58%, #000 60%);
   mask: radial-gradient(farthest-side, transparent 58%, #000 60%);
 }
@@ -358,18 +247,15 @@ h1 {
   margin-top: 18px;
 }
 
-.gauge-value {
-  font-size: 32px;
-}
-
 .gauge-label {
   color: var(--muted);
-  font-size: 13px;
+  font-size: 0.85rem;
+  font-family: "Space Mono", monospace;
 }
 
 .gauge-pills.compact {
   justify-content: center;
-  margin: var(--md) 0;
+  margin: var(--space-md) 0;
 }
 
 .stat-pill.centered {
@@ -385,14 +271,16 @@ h1 {
 .intent-footer {
   display: flex;
   justify-content: center;
-  margin-top: var(--lg);
+  margin-top: var(--space-lg);
 }
 
 .waitlist-band {
-  padding: var(--xl);
+  padding: var(--space-xl);
+  border: var(--border-strong);
+  box-shadow: var(--shadow-cyan);
 }
 
-@media (max-width: 980px) {
+@media (max-width: 1100px) {
   .ng-hero,
   .how-grid.two-col,
   .why-grid {
@@ -400,15 +288,24 @@ h1 {
   }
 }
 
-@media (max-width: 720px) {
+@media (max-width: 760px) {
   .ng-nav,
   .ng-main {
-    padding-left: var(--lg);
-    padding-right: var(--lg);
+    width: min(var(--max-width), calc(100% - 28px));
   }
 
-  .counter-row,
+  .ng-nav,
+  .intent-header,
+  .gauge-pills,
+  .pill-row,
+  .principles-row,
+  .status-inline {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
   .metric-grid,
+  .counter-row,
   .two-col-list,
   .gauge-stats {
     grid-template-columns: 1fr;
