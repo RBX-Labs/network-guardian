@@ -32,7 +32,7 @@
       <a href="../index.html">RBX Labs</a>
       <a href="#home">Home</a>
       <a href="#why">Why now</a>
-      <a href="#diagram">How it works</a>
+      <a href="#solution">How it works</a>
       <a href="#waitlist" class="pill">Join waitlist</a>
     </nav>
   </header>
@@ -40,22 +40,20 @@
   <main class="ng-main">
     <section class="ng-hero" id="home">
       <div class="hero-left">
-        <p class="eyebrow">PUBLIC WI-FI, REIMAGINED</p>
+        <p class="eyebrow">ANDROID APP · BSSID REPUTATION · REAL-TIME TRUST SCORING</p>
         <h1>
-          Make Wi-Fi decisions
-          <span class="gradient-text">before you connect</span>,
-          not after damage is done.
+          Trust Wi-Fi
+          <span class="gradient-text">before you connect</span>
         </h1>
         <p class="ng-hero-subtitle">
-          Public Wi-Fi is the world’s largest unprotected attack surface.
-          Network Guardian introduces the first
-          <strong>Pre-Connection Wi-Fi Trust Score (0–100)</strong>,
-          evaluating security, stability, and reputation before the handshake.
+          Network Guardian gives users a trust score for Wi-Fi networks before they rely on them.
+          It combines on-device checks, BSSID reputation, and community confidence so people,
+          apps, and infrastructure can decide before the handshake.
         </p>
 
         <div class="ng-hero-actions">
           <a class="btn btn-primary" href="#waitlist">Start a pilot conversation</a>
-          <a class="btn btn-ghost" href="#diagram">See how it works</a>
+          <a class="btn btn-ghost" href="#solution">See how it works</a>
         </div>
       </div>
 
@@ -64,96 +62,139 @@
           <div class="counter-row">
             <div class="scan-counter">
               <div class="counter-label">Scans completed</div>
-              <div class="counter-value">500+</div>
+              <div class="counter-value">493</div>
             </div>
             <div class="scan-counter">
               <div class="counter-label">Networks analyzed</div>
-              <div class="counter-value">60+</div>
+              <div class="counter-value">55+</div>
             </div>
           </div>
 
           <div class="metric-grid">
             <div class="metric-card">
-              <div class="metric-number">Real-time scans</div>
-              <div class="metric-label">Edge processed</div>
+              <div class="metric-number">0-100 trust score</div>
+              <div class="metric-label">Before connection</div>
             </div>
             <div class="metric-card">
-              <div class="metric-number">Transparency</div>
-              <div class="metric-label">Scores + signals exposed</div>
+              <div class="metric-number">Safe / Caution / Unsafe</div>
+              <div class="metric-label">Simple verdict</div>
             </div>
           </div>
 
           <div class="principles-row">
-            <span class="principle-chip">Clarity before connection</span>
-            <span class="principle-chip">Transparent scoring</span>
-            <span class="principle-chip">Edge-fast decisions</span>
+            <span class="principle-chip">Know your network</span>
+            <span class="principle-chip">User-side protection</span>
+            <span class="principle-chip">A new internet layer</span>
           </div>
         </div>
       </div>
 
       <div class="built-for hero-built-for">
-        <span class="pill-label">Built for</span>
+        <span class="pill-label">Initial wedge</span>
         <div class="pill-row">
-          <span class="pill">VPNs</span>
-          <span class="pill">Travel apps</span>
-          <span class="pill">Telcos</span>
-          <span class="pill">Router OEMs</span>
-          <span class="pill">Digital nomads</span>
-          <span class="pill">Business owners</span>
+          <span class="pill">Travelers</span>
+          <span class="pill">Remote workers</span>
+          <span class="pill">Students</span>
+          <span class="pill">Hotel and airport users</span>
+          <span class="pill">Cafe and campus networks</span>
         </div>
       </div>
     </section>
 
-    <section id="why" class="ng-why">
+    <section class="ng-section" id="problem">
       <div class="why-header">
-        <p class="eyebrow">Why now</p>
-        <h2>The missing trust layer for public Wi-Fi</h2>
+        <p class="eyebrow">The problem</p>
+        <h2>Millions of people make a blind network decision every day</h2>
         <p class="ng-hero-subtitle compact">
-          Before Network Guardian, users guessed. Now they see a decisionable score before a single packet leaves the device.
+          VPNs activate after connection. OS warnings are shallow. There is still no clear trust
+          signal before a user picks a Wi-Fi network.
         </p>
       </div>
-      <div class="why-grid">
+
+      <div class="fact-grid">
+        <div class="fact-card">
+          <div class="fact-value">628M+</div>
+          <div class="fact-label">Public Wi-Fi hotspots worldwide</div>
+          <div class="fact-source">Cisco Report, 2023</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">30%+</div>
+          <div class="fact-label">Users rely on public Wi-Fi</div>
+          <div class="fact-source">Statista, 2023</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">40%</div>
+          <div class="fact-label">Reported data compromise</div>
+          <div class="fact-source">Statista, 2024</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">43%</div>
+          <div class="fact-label">Reported security incidents</div>
+          <div class="fact-source">Forbes survey, 2023</div>
+        </div>
+      </div>
+
+      <div class="why-grid evidence-grid">
         <div class="why-card">
-          <div class="why-label">Global attack surface</div>
-          <p>Billions of public hotspots behave differently across airports, hotels, transit, and cafes. One trust layer needs to see them all.</p>
+          <div class="why-label">Spoofed networks in the wild</div>
+          <p>Airport and in-flight Wi-Fi spoofing cases have already led to credential capture and fraud. Users still have to guess before they join.</p>
         </div>
         <div class="why-card">
-          <div class="why-label">Spoofing on the rise</div>
-          <p>Rogue SSIDs and fake captive portals target travelers and remote teams. Pre-connection checks stop the join before damage.</p>
+          <div class="why-label">No clear trust signal</div>
+          <p>Public Wi-Fi often looks normal even when the network is unstable, spoofed, or routed through suspicious infrastructure.</p>
         </div>
         <div class="why-card">
-          <div class="why-label">Enterprise readiness</div>
-          <p>Scores are portable via SDK/API, so VPNs, telcos, and apps can steer users to safe networks automatically.</p>
+          <div class="why-label">Reactive tools miss the moment</div>
+          <p>Most security products start after connection. Network Guardian is built for the decision that happens before the first packet leaves the device.</p>
         </div>
       </div>
     </section>
 
-    <section class="ng-how" id="diagram">
+    <section class="ng-how" id="solution">
       <div class="how-header">
-        <p class="eyebrow">How Network Guardian works</p>
-        <h2>Pre-connection trust engine</h2>
+        <p class="eyebrow">The solution</p>
+        <h2>Diagnose, score, decide</h2>
         <p class="ng-hero-subtitle compact">
-          Network Guardian evaluates Wi-Fi safety <strong>before</strong> your device connects. VPNs only act <strong>after</strong> risk is already present.
+          Network Guardian turns on-device checks, reputation data, and community confidence
+          into a simple trust layer for users, apps, and infrastructure.
         </p>
+      </div>
+
+      <div class="solution-grid">
+        <div class="mode-card">
+          <p class="card-eyebrow">01</p>
+          <h3 class="mode-title">Diagnose</h3>
+          <p>Run DNS, TLS, proxy, gateway, captive portal, and stability checks before connection is trusted.</p>
+        </div>
+        <div class="mode-card">
+          <p class="card-eyebrow">02</p>
+          <h3 class="mode-title">Score</h3>
+          <p>Generate a 0-100 trust score using BSSID reputation, security checks, and community confidence.</p>
+        </div>
+        <div class="mode-card">
+          <p class="card-eyebrow">03</p>
+          <h3 class="mode-title">Decide</h3>
+          <p>Show a simple Safe, Caution, or Unsafe verdict before the user or app commits to the network.</p>
+        </div>
       </div>
 
       <div class="how-grid two-col">
         <div class="modes-stack">
           <div class="mode-card">
-            <h4 class="mode-title">Express scan (free)</h4>
-            <p>Fast trust score before you join. Ideal for travelers and coffee-shop work sessions.</p>
+            <h4 class="mode-title">Android-first product</h4>
+            <p>Express and detailed scans give users fast answers now, with deeper diagnostics for premium and partner use cases.</p>
           </div>
           <div class="mode-card">
-            <h4 class="mode-title">Detailed scan (paid)</h4>
-            <p>Expanded telemetry for teams, VPNs, and telcos that need to decide on behalf of users.</p>
+            <h4 class="mode-title">10 active checks</h4>
+            <p>DNS sanity, TLS validation, captive portal detection, proxy detection, gateway/ARP sanity, Wi-Fi layer cues, stability telemetry, and more.</p>
           </div>
           <div class="mode-card">
-            <h4 class="mode-title">Community signals</h4>
-            <p>Aggregated reputation + recent reports to show when a network has been validated or flagged.</p>
+            <h4 class="mode-title">Backend reputation graph</h4>
+            <p>BSSID reputation, community confidence scoring, and a roadmap toward instability forecasting and trust data APIs.</p>
           </div>
           <div class="mode-card">
-            <h4 class="mode-title">Transparent scoring</h4>
-            <p>Security, Stability, Reputation, and Anomaly, surfaced the same way you see in the app.</p>
+            <h4 class="mode-title">Trust data roadmap</h4>
+            <p>SDK and API for VPNs, travel apps, enterprise security, telcos, and OEMs that need pre-connection network intelligence.</p>
           </div>
         </div>
 
@@ -162,41 +203,41 @@
             <div class="intent-header">
               <div>
                 <p class="card-eyebrow">Pre-connection trust engine</p>
-                <h3>Decide before the handshake</h3>
+                <h3>Know the network before your data does</h3>
               </div>
               <div class="status-inline">
                 <span class="status-dot" aria-hidden="true"></span>
-                <span class="status-readout">Status: trust model active</span>
+                <span class="status-readout">Express and detailed scans live</span>
               </div>
             </div>
             <ul class="two-col-list">
-              <li><span class="micro-label">Security</span> Rogue access point detection</li>
-              <li><span class="micro-label">Anomaly</span> DNS &amp; TLS anomaly detection</li>
-              <li><span class="micro-label">Stability</span> Latency, jitter &amp; packet-loss forecasting</li>
-              <li><span class="micro-label">Reputation</span> Global Wi-Fi reputation graph</li>
+              <li><span class="micro-label">Security</span> Rogue access point and protocol anomaly detection</li>
+              <li><span class="micro-label">Stability</span> Latency, packet loss, and instability signals</li>
+              <li><span class="micro-label">Reputation</span> BSSID history and operator context</li>
+              <li><span class="micro-label">Community</span> Confidence layer from prior scans and reports</li>
             </ul>
             <div class="gauge-block">
               <div
                 class="gauge"
-                style="--gauge:0.85;"
-                data-gauge="0.85"
+                style="--gauge:0.82;"
+                data-gauge="0.82"
                 role="img"
-                aria-label="Trust score 85 out of 100, secure"
+                aria-label="Trust score 82 out of 100, caution"
               >
                 <div class="gauge-donut"></div>
                 <div class="gauge-center">
-                  <div class="gauge-value">85</div>
-                  <div class="gauge-label">Secure</div>
+                  <div class="gauge-value">82</div>
+                  <div class="gauge-label">Caution</div>
                 </div>
               </div>
               <div class="gauge-pills compact">
                 <div class="stat-pill centered">
-                  <span class="pill-label">Trust score</span>
-                  <span class="pill-value pill-readout">85</span>
+                  <span class="pill-label">Verdict</span>
+                  <span class="pill-value pill-readout">Caution</span>
                 </div>
                 <div class="stat-pill centered">
-                  <span class="pill-label">Security</span>
-                  <span class="pill-value pill-readout">Pass</span>
+                  <span class="pill-label">Mode</span>
+                  <span class="pill-value pill-readout">Detailed</span>
                 </div>
               </div>
               <div class="gauge-stats">
@@ -213,26 +254,165 @@
                   <div class="stat-label">Community</div>
                 </div>
               </div>
-              <div class="intent-footer">
-                <a class="btn btn-primary btn-sm" href="#waitlist">Start pilot</a>
-              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+    <section id="why" class="ng-why">
+      <div class="why-header">
+        <p class="eyebrow">Why now</p>
+        <h2>The timing is real</h2>
+        <p class="ng-hero-subtitle compact">
+          Work is distributed, network choice is constant, and both humans and software agents
+          increasingly need to know whether a network is safe before they connect.
+        </p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-label">Work is everywhere now</div>
+          <p>Remote work, travel, hybrid campuses, and constant mobility have turned network choice into a daily security decision.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Existing tools are reactive</div>
+          <p>VPNs act after connection. OS warnings stay generic. Enterprise tools protect network owners, not the person choosing the Wi-Fi.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">AI agents need trust too</div>
+          <p>Apps and AI agents increasingly send credentials and sensitive context. They need a trust signal before they rely on the network.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ng-section">
+      <div class="why-header">
+        <p class="eyebrow">The moat</p>
+        <h2>Every scan improves the graph</h2>
+        <p class="ng-hero-subtitle compact">
+          Over time, Network Guardian becomes a proprietary Wi-Fi trust dataset,
+          the user-side reputation layer for the physical internet.
+        </p>
+      </div>
+      <div class="moat-grid">
+        <div class="why-card"><div class="why-label">Security history</div><p>Historical BSSID behavior strengthens future trust decisions.</p></div>
+        <div class="why-card"><div class="why-label">Stability baselines</div><p>Repeated scans create context for whether a network is normal or drifting.</p></div>
+        <div class="why-card"><div class="why-label">Device diversity</div><p>Signals improve as more environments and device types contribute.</p></div>
+        <div class="why-card"><div class="why-label">Fingerprint drift</div><p>Changes in a known network can surface risk before a user connects again.</p></div>
+        <div class="why-card"><div class="why-label">Incident reports</div><p>Community reports reinforce or challenge trust scores over time.</p></div>
+        <div class="why-card"><div class="why-label">ASN and operator context</div><p>Trust improves when infrastructure patterns can be linked to known operators and abuse history.</p></div>
+      </div>
+    </section>
+
+    <section class="ng-section">
+      <div class="why-header">
+        <p class="eyebrow">Traction</p>
+        <h2>Working product, early signal, clear expansion path</h2>
+      </div>
+      <div class="fact-grid traction-grid">
+        <div class="fact-card">
+          <div class="fact-value">493</div>
+          <div class="fact-label">Community scans completed</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">55+</div>
+          <div class="fact-label">Unique networks evaluated</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">Flutter</div>
+          <div class="fact-label">Android app front end</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">FastAPI + Postgres</div>
+          <div class="fact-label">Backend and data layer</div>
+        </div>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-label">Key features</div>
+          <p>Network choice guidance, express and detailed diagnostics, trust score by BSSID, DNS/TLS risk detection, stability telemetry, and a growing Wi-Fi reputation graph.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Today</div>
+          <p>Consumer wedge with a real scanning product and a reputation graph that strengthens as the user base grows.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Next</div>
+          <p>SDK and trust data APIs for VPNs, travel platforms, enterprise security, telcos, router OEMs, and mobile trust layers.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ng-section">
+      <div class="market-grid">
+        <div class="intent-card">
+          <p class="eyebrow">Market opportunity</p>
+          <h2>Wi-Fi is the most-used network infrastructure on earth, trust is the missing layer</h2>
+          <p class="ng-hero-subtitle compact">
+            The long-term ambition is the Wi-Fi equivalent of Safe Browsing,
+            a trust signal used by consumers, apps, and infrastructure worldwide.
+          </p>
+          <div class="pill-row">
+            <span class="pill">VPN providers</span>
+            <span class="pill">Travel platforms</span>
+            <span class="pill">Enterprise security</span>
+            <span class="pill">Telcos</span>
+            <span class="pill">Router OEMs</span>
+            <span class="pill">Mobile trust layers</span>
+          </div>
+        </div>
+
+        <div class="intent-card">
+          <p class="eyebrow">Business model</p>
+          <h2>Consumers pay for protection, partners buy access</h2>
+          <ul class="two-col-list">
+            <li><span class="micro-label">01</span> Freemium consumer app with paid detailed scans, monitoring, and travel security subscription</li>
+            <li><span class="micro-label">02</span> B2B SDK and API licensing priced per scan, device, or MAU</li>
+            <li><span class="micro-label">03</span> Trust data layer for security, travel, telecom, and device partners</li>
+            <li><span class="micro-label">Gap</span> VPNs, OS warnings, and enterprise Wi-Fi tools all miss the user-side pre-connection trust layer</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="ng-section founder-section">
+      <div class="why-header">
+        <p class="eyebrow">The founder</p>
+        <h2>Built by someone who has lived network operations and AI trust systems</h2>
+      </div>
+      <div class="why-grid founder-grid">
+        <div class="why-card">
+          <div class="why-label">Ericsson, network operations</div>
+          <p>Global NOC experience across monitoring, outages, SLAs, incident response, and escalation workflows.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Ericsson, BSS systems</div>
+          <p>Worked on systems where reliability, billing logic, service workflows, and customer impact intersect.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Kampd, AI trust systems</div>
+          <p>Built trust, reputation, governance, and real-time moderation systems that reduced manual moderation by 40%.</p>
+        </div>
+      </div>
+      <div class="intent-card founder-thesis">
+        <p class="ng-hero-subtitle compact">
+          Core thesis: network operations need more than alerts. They need trusted, explainable,
+          revenue-aware intelligence that helps teams act before incidents become business failures.
+        </p>
+      </div>
+    </section>
+
     <section class="waitlist-band" id="waitlist">
       <div class="waitlist-content">
-        <p class="eyebrow">Pilot interest</p>
-        <h2>Bring pre-connection Wi-Fi trust into your product stack.</h2>
+        <p class="eyebrow">The network you trust should earn it</p>
+        <h2>Network Guardian is building the trust layer the internet never had</h2>
         <p class="ng-hero-subtitle compact">
-          Network Guardian is designed for VPNs, travel apps, connectivity platforms,
-          and operators that need a trust signal before connection happens.
+          493 scans, 55+ networks, and a clear path toward a global Wi-Fi trust graph
+          for consumers, apps, and infrastructure.
         </p>
         <div class="ng-hero-actions">
           <a class="btn btn-primary" href="mailto:hello@rbxlabs.com?subject=Network%20Guardian%20pilot">Discuss a pilot</a>
-          <a class="btn btn-ghost" href="../index.html#ventures">Back to RBX Labs</a>
+          <a class="btn btn-ghost" href="../index.html#selected-builds">Back to RBX Labs</a>
         </div>
       </div>
     </section>
