@@ -1360,10 +1360,12 @@ h2 {
   display: flex;
   flex-direction: column;
   gap: 14px;
+  min-width: 0;
 }
 
 .calendly-inline-widget {
-  min-width: 320px;
+  min-width: 0;
+  width: 100%;
   height: 760px;
   border-radius: var(--radius-md);
   overflow: hidden;
@@ -1822,6 +1824,10 @@ h2 {
   .section-heading h2,
   .contact-card h2 {
     max-width: 16ch;
+  }
+
+  .contact-card {
+    grid-template-columns: 1fr;
   }
 }
 
