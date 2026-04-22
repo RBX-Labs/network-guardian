@@ -70,7 +70,7 @@
   </header>
 
   <main class="ng-main">
-    <section class="ng-hero" id="home">
+    <section class="ng-hero reveal" id="home">
       <div class="hero-left">
         <p class="eyebrow">ANDROID APP · PRE-CONNECTION WI-FI TRUST · REAL-TIME SCORING</p>
         <h1>
@@ -94,11 +94,11 @@
           <div class="counter-row">
             <div class="scan-counter">
               <div class="counter-label">Scans completed</div>
-              <div class="counter-value">493</div>
+              <div class="counter-value"><span class="countup" data-target="493">493</span></div>
             </div>
             <div class="scan-counter">
               <div class="counter-label">Networks analyzed</div>
-              <div class="counter-value">55+</div>
+              <div class="counter-value"><span class="countup" data-target="55" data-suffix="+">55+</span></div>
             </div>
           </div>
 
@@ -133,7 +133,7 @@
       </div>
     </section>
 
-    <section class="ng-section" id="problem">
+    <section class="ng-section reveal" id="problem">
       <div class="why-header">
         <p class="eyebrow">The problem</p>
         <h2>People still make a blind network decision every day</h2>
@@ -145,24 +145,24 @@
 
       <div class="fact-grid">
         <div class="fact-card">
-          <div class="fact-value">628M+</div>
+          <div class="fact-value"><span class="countup" data-target="628" data-suffix="M+">628M+</span></div>
           <div class="fact-label">Public Wi-Fi hotspots worldwide</div>
-          <div class="fact-source">Cisco Report, 2023</div>
+          <a class="fact-source" href="https://www.cisco.com/c/en/us/solutions/collateral/executive-perspectives/annual-internet-report/white-paper-c11-741490.html" target="_blank" rel="noopener noreferrer">Cisco Report, 2023</a>
         </div>
         <div class="fact-card">
-          <div class="fact-value">30%+</div>
+          <div class="fact-value"><span class="countup" data-target="30" data-suffix="%+">30%+</span></div>
           <div class="fact-label">Users rely on public Wi-Fi</div>
-          <div class="fact-source">Statista, 2023</div>
+          <a class="fact-source" href="https://www.statista.com/statistics/1450721/public-wifi-usage-reasons-us/" target="_blank" rel="noopener noreferrer">Statista, 2023</a>
         </div>
         <div class="fact-card">
-          <div class="fact-value">40%</div>
+          <div class="fact-value"><span class="countup" data-target="40" data-suffix="%">40%</span></div>
           <div class="fact-label">Reported data compromise</div>
-          <div class="fact-source">Statista, 2024</div>
+          <a class="fact-source" href="https://www.statista.com/statistics/1450743/public-wifi-use-personal-data-compromise-us/" target="_blank" rel="noopener noreferrer">Statista, 2024</a>
         </div>
         <div class="fact-card">
-          <div class="fact-value">43%</div>
+          <div class="fact-value"><span class="countup" data-target="43" data-suffix="%">43%</span></div>
           <div class="fact-label">Reported security incidents</div>
-          <div class="fact-source">Forbes survey, 2023</div>
+          <a class="fact-source" href="https://www.forbes.com/advisor/business/public-wifi-risks/" target="_blank" rel="noopener noreferrer">Forbes survey, 2023</a>
         </div>
       </div>
 
@@ -182,7 +182,7 @@
       </div>
     </section>
 
-    <section class="ng-how" id="solution">
+    <section class="ng-how reveal" id="solution">
       <div class="how-header">
         <p class="eyebrow">The solution</p>
         <h2>Diagnose, score, decide</h2>
@@ -191,58 +191,47 @@
         </p>
       </div>
 
-      <div class="solution-grid">
-        <div class="mode-card">
-          <p class="card-eyebrow">01</p>
-          <h3 class="mode-title">Diagnose</h3>
-          <p>Run checks across DNS, TLS, captive portal behavior, proxy signals, gateway sanity, and connection stability.</p>
-        </div>
-        <div class="mode-card">
-          <p class="card-eyebrow">02</p>
-          <h3 class="mode-title">Score</h3>
-          <p>Convert those signals into a 0-100 trust score using device checks, network reputation, and prior scan history.</p>
-        </div>
-        <div class="mode-card">
-          <p class="card-eyebrow">03</p>
-          <h3 class="mode-title">Decide</h3>
-          <p>Show a simple verdict before the user commits: Safe, Caution, or Unsafe.</p>
-        </div>
-      </div>
+      <div class="trust-engine-stage">
+        <article class="trust-stage-panel trust-stage-signals">
+          <div class="trust-stage-header">
+            <div class="process-step-top">
+              <span class="process-step-number">01</span>
+              <span class="process-step-line" aria-hidden="true"></span>
+            </div>
+            <p class="card-eyebrow">Diagnose</p>
+            <h3>Read the network</h3>
+          </div>
+          <p class="trust-stage-copy">
+            Raw checks become usable input. The goal is not more diagnostics. It is a cleaner trust decision.
+          </p>
+          <div class="signal-chip-cloud">
+            <span class="signal-chip">DNS sanity</span>
+            <span class="signal-chip">TLS validation</span>
+            <span class="signal-chip">Captive portal</span>
+            <span class="signal-chip">Proxy detection</span>
+            <span class="signal-chip">Gateway integrity</span>
+            <span class="signal-chip">Latency</span>
+            <span class="signal-chip">Packet loss</span>
+            <span class="signal-chip">BSSID history</span>
+          </div>
+        </article>
 
-      <div class="how-grid two-col">
-        <div class="modes-stack">
-          <div class="mode-card">
-            <h4 class="mode-title">Android-first product</h4>
-            <p>Built Android-first, with express and detailed scans that give users fast answers now and deeper diagnostics when needed.</p>
-          </div>
-          <div class="mode-card">
-            <h4 class="mode-title">Operational checks</h4>
-            <p>Core checks span DNS sanity, TLS validation, captive portal detection, proxy detection, gateway integrity, and stability telemetry.</p>
-          </div>
-          <div class="mode-card">
-            <h4 class="mode-title">Backend reputation graph</h4>
-            <p>A growing BSSID reputation layer adds historical context and creates the foundation for future trust data products.</p>
-          </div>
-        </div>
-
-        <div class="how-card">
-          <div class="intent-card elevated">
+        <article class="trust-stage-panel trust-stage-score">
+          <div class="intent-card elevated trust-engine-core">
             <div class="intent-header">
               <div>
-                <p class="card-eyebrow">Pre-connection trust engine</p>
-                <h3>Know the network before your data does</h3>
+                <div class="process-step-top process-step-top-centered">
+                  <span class="process-step-number">02</span>
+                  <span class="process-step-line" aria-hidden="true"></span>
+                </div>
+                <p class="card-eyebrow">Score</p>
+                <h3>Turn raw signals into a trust score</h3>
               </div>
               <div class="status-inline">
                 <span class="status-dot" aria-hidden="true"></span>
                 <span class="status-readout">Express and detailed scans live</span>
               </div>
             </div>
-            <ul class="two-col-list">
-              <li><span class="micro-label">Security</span> Rogue access point and anomaly detection</li>
-              <li><span class="micro-label">Stability</span> Latency, loss, and instability signals</li>
-              <li><span class="micro-label">Reputation</span> BSSID history and operator context</li>
-              <li><span class="micro-label">Trust</span> Clear verdict before connection</li>
-            </ul>
             <div class="gauge-block">
               <div
                 class="gauge"
@@ -253,7 +242,7 @@
               >
                 <div class="gauge-donut"></div>
                 <div class="gauge-center">
-                  <div class="gauge-value">82</div>
+                  <div class="gauge-value"><span class="countup" data-target="82">82</span></div>
                   <div class="gauge-label">Caution</div>
                 </div>
               </div>
@@ -269,15 +258,15 @@
               </div>
               <div class="gauge-stats">
                 <div>
-                  <div class="stat-number stat-readout">100</div>
+                  <div class="stat-number stat-readout"><span class="countup" data-target="100">100</span></div>
                   <div class="stat-label">Security</div>
                 </div>
                 <div>
-                  <div class="stat-number stat-readout">76</div>
+                  <div class="stat-number stat-readout"><span class="countup" data-target="76">76</span></div>
                   <div class="stat-label">Stability</div>
                 </div>
                 <div>
-                  <div class="stat-number stat-readout">54</div>
+                  <div class="stat-number stat-readout"><span class="countup" data-target="54">54</span></div>
                   <div class="stat-label">Community</div>
                 </div>
               </div>
@@ -288,63 +277,52 @@
               </div>
             </div>
           </div>
-        </div>
+        </article>
+
+        <article class="trust-stage-panel trust-stage-decision">
+          <div class="trust-stage-header">
+            <div class="process-step-top">
+              <span class="process-step-number">03</span>
+            </div>
+            <p class="card-eyebrow">Decide</p>
+            <h3>Make the call before connection</h3>
+          </div>
+          <p class="trust-stage-copy">
+            The output is simple enough for a person to trust and structured enough for a product to use.
+          </p>
+          <div class="verdict-stack" aria-label="Decision states">
+            <div class="verdict-card verdict-card-safe">
+              <span class="verdict-name">Safe</span>
+              <span class="verdict-range">85-100</span>
+            </div>
+            <div class="verdict-card verdict-card-caution is-active">
+              <span class="verdict-name">Caution</span>
+              <span class="verdict-range">60-84</span>
+            </div>
+            <div class="verdict-card verdict-card-unsafe">
+              <span class="verdict-name">Unsafe</span>
+              <span class="verdict-range">0-59</span>
+            </div>
+          </div>
+        </article>
       </div>
     </section>
 
-    <section id="why" class="ng-why">
-      <div class="why-header">
-        <p class="eyebrow">Why now</p>
-        <h2>The timing is real</h2>
-        <p class="ng-hero-subtitle compact">
-          Work is distributed, network choice is constant, and more people, apps, and AI systems
-          now depend on networks they do not control.
-        </p>
-      </div>
-      <div class="why-grid">
-        <div class="why-card">
-          <div class="why-label">Work is everywhere now</div>
-          <p>Remote work, travel, hybrid campuses, and constant mobility have turned network choice into a daily security decision.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-label">Existing tools are reactive</div>
-          <p>VPNs act after connection. OS warnings stay generic. Enterprise tools protect network owners, not the person choosing the Wi-Fi.</p>
-        </div>
-        <div class="why-card">
-          <div class="why-label">AI agents need trust too</div>
-          <p>Apps and AI agents increasingly send credentials and sensitive context. They need a trust signal before they rely on the network.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="ng-section">
-      <div class="why-header">
-        <p class="eyebrow">The thesis</p>
-        <h2>Every scan improves the trust graph</h2>
-        <p class="ng-hero-subtitle compact">
-          Network Guardian is not just a scanning tool. Over time, it becomes a user-side trust layer for Wi-Fi infrastructure.
-        </p>
-      </div>
-      <div class="moat-grid">
-        <div class="why-card"><div class="why-label">Historical behavior</div><p>Historical BSSID behavior improves future trust decisions.</p></div>
-        <div class="why-card"><div class="why-label">Stability baselines</div><p>Repeated scans create context for whether a network is normal or drifting.</p></div>
-        <div class="why-card"><div class="why-label">Community signal</div><p>Community reports reinforce or challenge trust scores over time.</p></div>
-        <div class="why-card"><div class="why-label">Infrastructure context</div><p>Operator and infrastructure context improves accuracy as the graph grows.</p></div>
-      </div>
-    </section>
-
-    <section class="ng-section">
+    <section class="ng-section reveal">
       <div class="why-header">
         <p class="eyebrow">Traction</p>
         <h2>Working product, early signal, clear expansion path</h2>
+        <p class="ng-hero-subtitle compact">
+          The product is already live enough to show signal, and simple enough to explain where it expands next.
+        </p>
       </div>
       <div class="fact-grid traction-grid">
         <div class="fact-card">
-          <div class="fact-value">493</div>
+          <div class="fact-value"><span class="countup" data-target="493">493</span></div>
           <div class="fact-label">Community scans completed</div>
         </div>
         <div class="fact-card">
-          <div class="fact-value">55+</div>
+          <div class="fact-value"><span class="countup" data-target="55" data-suffix="+">55+</span></div>
           <div class="fact-label">Unique networks evaluated</div>
         </div>
         <div class="fact-card">
@@ -372,7 +350,94 @@
       </div>
     </section>
 
-    <section class="ng-section">
+    <section class="waitlist-band reveal" id="waitlist">
+      <div class="waitlist-content">
+        <p class="eyebrow">The network you trust should earn it</p>
+        <h2>Network Guardian is building the trust layer the internet never had</h2>
+        <p class="ng-hero-subtitle compact">
+          If you are exploring a consumer, enterprise, travel, telecom, or trust-data use case,
+          start with a short working session and see whether there is a real pilot fit.
+        </p>
+        <div class="market-grid cta-grid">
+          <div class="intent-card">
+            <p class="eyebrow">Best for</p>
+            <h3>Book a pilot call</h3>
+            <p class="ng-hero-subtitle compact">
+              Use this if you want to discuss a pilot, distribution angle, product roadmap, or partner use case live.
+            </p>
+            <div class="ng-hero-actions">
+              <a
+                class="btn btn-primary"
+                href="https://calendly.com/rishabhbanga/ai-strategy-rishabh?hide_gdpr_banner=1"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Book a pilot call
+              </a>
+            </div>
+          </div>
+          <div class="intent-card">
+            <p class="eyebrow">Alternative</p>
+            <h3>Email directly</h3>
+            <p class="ng-hero-subtitle compact">
+              Prefer async? Send the use case, company context, and what you want to explore.
+            </p>
+            <div class="ng-hero-actions">
+              <a
+                class="btn btn-primary"
+                href="mailto:rishabh@rbx-labs.io?subject=Network%20Guardian%20pilot%20interest"
+              >
+                Email pilot interest
+              </a>
+              <a class="btn btn-ghost" href="index.html#selected-builds">Back to RBX Labs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="why" class="ng-why reveal">
+      <div class="why-header">
+        <p class="eyebrow">Why now</p>
+        <h2>The timing is real</h2>
+        <p class="ng-hero-subtitle compact">
+          Work is distributed, network choice is constant, and more people, apps, and AI systems
+          now depend on networks they do not control.
+        </p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-label">Work is everywhere now</div>
+          <p>Remote work, travel, hybrid campuses, and constant mobility have turned network choice into a daily security decision.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Existing tools are reactive</div>
+          <p>VPNs act after connection. OS warnings stay generic. Enterprise tools protect network owners, not the person choosing the Wi-Fi.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">AI agents need trust too</div>
+          <p>Apps and AI agents increasingly send credentials and sensitive context. They need a trust signal before they rely on the network.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="ng-section reveal">
+      <div class="why-header">
+        <p class="eyebrow">The thesis</p>
+        <h2>Every scan improves the trust graph</h2>
+        <p class="ng-hero-subtitle compact">
+          Network Guardian is not just a scanning tool. Over time, it becomes a user-side trust layer for Wi-Fi infrastructure.
+        </p>
+      </div>
+      <div class="moat-grid">
+        <div class="why-card"><div class="why-label">Historical behavior</div><p>Historical BSSID behavior improves future trust decisions.</p></div>
+        <div class="why-card"><div class="why-label">Stability baselines</div><p>Repeated scans create context for whether a network is normal or drifting.</p></div>
+        <div class="why-card"><div class="why-label">Community signal</div><p>Community reports reinforce or challenge trust scores over time.</p></div>
+        <div class="why-card"><div class="why-label">Infrastructure context</div><p>Operator and infrastructure context improves accuracy as the graph grows.</p></div>
+      </div>
+    </section>
+
+    <section class="ng-section reveal">
       <div class="market-grid">
         <div class="intent-card">
           <p class="eyebrow">Business model</p>
@@ -400,50 +465,6 @@
             <span class="pill">AI trust systems</span>
           </div>
         </div>
-      </div>
-    </section>
-
-    <section class="waitlist-band" id="waitlist">
-      <div class="waitlist-content">
-        <p class="eyebrow">Pilot</p>
-        <h2>Explore a pilot use case</h2>
-        <p class="ng-hero-subtitle compact">
-          If you are exploring a consumer, enterprise, travel, telecom, or trust-data use case,
-          start the conversation here.
-        </p>
-        <form
-          class="pilot-form"
-          action="mailto:rishabh@rbx-labs.io?subject=Network%20Guardian%20pilot%20interest"
-          method="post"
-          enctype="text/plain"
-        >
-          <div class="pilot-grid">
-            <label class="field">
-              <span>Name</span>
-              <input type="text" name="name" autocomplete="name" required />
-            </label>
-            <label class="field">
-              <span>Email</span>
-              <input type="email" name="email" autocomplete="email" required />
-            </label>
-            <label class="field">
-              <span>Company</span>
-              <input type="text" name="company" autocomplete="organization" />
-            </label>
-            <label class="field">
-              <span>Use case</span>
-              <input type="text" name="use_case" placeholder="VPN, travel app, telco, enterprise security..." />
-            </label>
-          </div>
-          <label class="field field-wide">
-            <span>What are you trying to solve?</span>
-            <textarea name="notes" rows="4" placeholder="Tell me what product, workflow, or trust problem you want to explore."></textarea>
-          </label>
-          <div class="ng-hero-actions">
-            <button class="btn btn-primary" type="submit">Send pilot interest</button>
-            <a class="btn btn-ghost" href="index.html#selected-builds">Back to RBX Labs</a>
-          </div>
-        </form>
       </div>
     </section>
   </main>
