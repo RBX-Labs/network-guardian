@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Network Guardian Earth View | Wi-Fi Trust Map</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta
+    name="description"
+    content="A dedicated Google Earth-ready view of sanitized Network Guardian Wi-Fi trust locations."
+  />
+  <link rel="canonical" href="https://rbx-labs.io/network-guardian-earth.html" />
+  <link rel="icon" type="image/png" sizes="1024x1024" href="assets/branding/rbx-logo.png" />
+  <link rel="shortcut icon" href="assets/branding/rbx-logo.png" />
+  <link rel="apple-touch-icon" href="assets/branding/rbx-logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Geist:wght@500;600;700&amp;family=Inter+Tight:wght@400;500;600&amp;family=Space+Mono:wght@400;600&amp;display=swap"
+    rel="stylesheet"
+  />
+  <script>document.documentElement.classList.add('js');</script>
+  <link rel="stylesheet" href="network-guardian.css" />
+</head>
+<body>
+  <div class="bg-layers" aria-hidden="true"></div>
+  <div class="grid-orbit" aria-hidden="true"></div>
+
+  <header class="ng-nav">
+    <div class="ng-logo">
+      <img src="assets/branding/ng-logo.png" alt="Network Guardian" />
+      <div>
+        <div class="ng-logo-title">Network Guardian</div>
+        <div class="ng-logo-subtitle">Earth-ready trust map</div>
+      </div>
+    </div>
+    <nav class="ng-links">
+      <a href="index.html">RBX Labs</a>
+      <a href="network-guardian.html">Network Guardian</a>
+      <a href="#earth-data">Data</a>
+      <a href="#earth-workflow">Workflow</a>
+      <a href="https://earth.google.com/web/" target="_blank" rel="noopener noreferrer" class="pill">Launch Earth</a>
+    </nav>
+  </header>
+
+  <main class="ng-main earth-page">
+    <section class="ng-hero earth-hero reveal" id="home">
+      <div class="hero-left">
+        <p class="eyebrow">GOOGLE EARTH · SANITIZED WI-FI TRUST LOCATIONS · KML + GEOJSON</p>
+        <h1>
+          Explore the Wi-Fi trust graph
+          <span class="gradient-text">on Earth</span>
+        </h1>
+        <p class="ng-hero-subtitle">
+          This page packages Network Guardian report locations as Google Earth-ready files.
+          The export is aggregated and rounded so it is useful for exploration without exposing raw scan rows.
+        </p>
+        <div class="ng-hero-actions">
+          <a class="btn btn-primary" href="assets/network-guardian-map/network_locations.kml">Download KML</a>
+          <a class="btn btn-ghost" href="assets/network-guardian-map/network_locations.geojson">Download GeoJSON</a>
+          <a class="btn btn-ghost" href="https://earth.google.com/web/" target="_blank" rel="noopener noreferrer">Open Google Earth</a>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="earth-preview" aria-label="Static preview of mapped Network Guardian locations">
+          <div class="earth-grid" aria-hidden="true"></div>
+          <div class="earth-point earth-point-1"><span>Delhi NCR</span></div>
+          <div class="earth-point earth-point-2"><span>Changi</span></div>
+          <div class="earth-point earth-point-3"><span>Bangkok</span></div>
+          <div class="earth-point earth-point-4"><span>Bay Area</span></div>
+          <div class="earth-point earth-point-5"><span>JFK</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="ng-section reveal" id="earth-data">
+      <div class="why-header">
+        <p class="eyebrow">Data package</p>
+        <h2>Three files, one sanitized location layer</h2>
+        <p class="ng-hero-subtitle compact">
+          The layer groups report locations by SSID and BSSID vendor prefix. Coordinates are rounded to reduce location precision.
+        </p>
+      </div>
+      <div class="fact-grid traction-grid">
+        <div class="fact-card">
+          <div class="fact-value">45</div>
+          <div class="fact-label">Aggregated locations</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">346</div>
+          <div class="fact-label">Mappable reports represented</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">KML</div>
+          <div class="fact-label">Best for Google Earth import</div>
+        </div>
+        <div class="fact-card">
+          <div class="fact-value">GeoJSON</div>
+          <div class="fact-label">Best for web maps and GIS tools</div>
+        </div>
+      </div>
+      <div class="market-grid earth-download-grid">
+        <a class="earth-file-card" href="assets/network-guardian-map/network_locations.kml">
+          <span class="micro-label">Google Earth</span>
+          <strong>network_locations.kml</strong>
+          <span>Open as a local KML file or import into a Google Earth project.</span>
+        </a>
+        <a class="earth-file-card" href="assets/network-guardian-map/network_locations.geojson">
+          <span class="micro-label">Data layer</span>
+          <strong>network_locations.geojson</strong>
+          <span>Use for Google Earth data layers, web maps, and GIS tools that support GeoJSON.</span>
+        </a>
+        <a class="earth-file-card" href="assets/network-guardian-map/network_locations.csv">
+          <span class="micro-label">Spreadsheet</span>
+          <strong>network_locations.csv</strong>
+          <span>Inspect the sanitized source table before importing or sharing.</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="ng-section reveal" id="earth-workflow">
+      <div class="why-header">
+        <p class="eyebrow">Workflow</p>
+        <h2>Use the free Google Earth path first</h2>
+        <p class="ng-hero-subtitle compact">
+          Google Earth Standard supports cloud import and storage with a 1 GB limit, which is far above this small export.
+        </p>
+      </div>
+      <div class="why-grid">
+        <div class="why-card">
+          <div class="why-label">Fast local view</div>
+          <p>Open Google Earth, choose New, then open a local KML file. Select the KML from this page to inspect the layer without publishing it.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Collaborative project</div>
+          <p>Sign in to Google Earth, create a project, and import the KML or GeoJSON. The project can be saved and shared from Google Drive.</p>
+        </div>
+        <div class="why-card">
+          <div class="why-label">Public website</div>
+          <p>For a fully embedded public map, use this same GeoJSON in a Google Maps or Leaflet page and keep raw scan fields out of the browser.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Network Guardian Trust Map</name>
+    <description>Sanitized, aggregated Network Guardian Wi-Fi report locations. Coordinates rounded to reduce precision.</description>
+    <Placemark>
+      <name>Beep bob beep_5G (37)</name>
+      <description>SSID: Beep bob beep_5G<br/>BSSID OUI: 98:da:c4<br/>Reports: 37<br/>First seen: 2025-12-04 20:18:50.076357+00<br/>Last seen: 2025-12-20 20:20:39.990285+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff00b8d4</color>
+          <scale>1.50</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3767,28.5337,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>AndroidWifi (32)</name>
+      <description>SSID: AndroidWifi<br/>BSSID OUI: 00:13:10<br/>Reports: 32<br/>First seen: 2025-12-15 13:42:30.163989+00<br/>Last seen: 2026-02-07 11:56:40.377158+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff00b8d4</color>
+          <scale>1.50</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-122.0840,37.4220,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>BEEPBOPBEEP_5G (26)</name>
+      <description>SSID: BEEPBOPBEEP_5G<br/>BSSID OUI: 60:32:b1<br/>Reports: 26<br/>First seen: 2025-12-29 09:37:19.127165+00<br/>Last seen: 2026-04-17 16:49:42.552191+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff00b8d4</color>
+          <scale>1.43</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3767,28.5336,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Infinity Rewards (21)</name>
+      <description>SSID: Infinity Rewards<br/>BSSID OUI: 10:82:3d<br/>Reports: 21<br/>First seen: 2025-12-06 10:11:49.110417+00<br/>Last seen: 2025-12-10 19:10:40.706036+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff00b8d4</color>
+          <scale>1.35</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.4025,28.4953,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Beep bob beep (21)</name>
+      <description>SSID: Beep bob beep<br/>BSSID OUI: 98:da:c4<br/>Reports: 21<br/>First seen: 2025-12-10 22:03:56.117962+00<br/>Last seen: 2025-12-15 13:46:40.26605+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff00b8d4</color>
+          <scale>1.35</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3768,28.5338,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Palayana (17)</name>
+      <description>SSID: Palayana<br/>BSSID OUI: cc:d0:83<br/>Reports: 17<br/>First seen: 2025-12-22 06:47:24.207155+00<br/>Last seen: 2025-12-25 02:21:49.659206+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff14b8a6</color>
+          <scale>1.28</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>99.9587,12.6663,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Palayana (16)</name>
+      <description>SSID: Palayana<br/>BSSID OUI: f0:61:c0<br/>Reports: 16<br/>First seen: 2025-12-23 12:04:55.703141+00<br/>Last seen: 2025-12-24 09:55:10.32664+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff14b8a6</color>
+          <scale>1.27</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>99.9571,12.6666,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>HabidadeGuest (16)</name>
+      <description>SSID: HabidadeGuest<br/>BSSID OUI: 82:88:1f<br/>Reports: 16<br/>First seen: 2025-12-11 08:35:37.976954+00<br/>Last seen: 2025-12-20 11:02:47.407117+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff14b8a6</color>
+          <scale>1.27</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3653,28.5390,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Joyalukkas-Free-Wifi (11)</name>
+      <description>SSID: Joyalukkas-Free-Wifi<br/>BSSID OUI: 70:4c:a5<br/>Reports: 11<br/>First seen: 2025-12-12 08:14:02.6514+00<br/>Last seen: 2025-12-15 06:53:35.547591+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff14b8a6</color>
+          <scale>1.18</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.2364,28.6132,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Taj InnerCircle (10)</name>
+      <description>SSID: Taj InnerCircle<br/>BSSID OUI: 30:cb:c7<br/>Reports: 10<br/>First seen: 2026-03-18 10:16:31.011097+00<br/>Last seen: 2026-03-19 04:35:53.362825+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff14b8a6</color>
+          <scale>1.17</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.2851,28.4897,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>GMR-Free-WIFI (10)</name>
+      <description>SSID: GMR-Free-WIFI<br/>BSSID OUI: 44:1e:98<br/>Reports: 10<br/>First seen: 2025-12-25 15:28:29.121375+00<br/>Last seen: 2026-04-25 06:51:31.517215+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff14b8a6</color>
+          <scale>1.17</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0841,28.5550,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>LordOfThePings (10)</name>
+      <description>SSID: LordOfThePings<br/>BSSID OUI: 8e:6a:8d<br/>Reports: 10<br/>First seen: 2025-12-22 08:35:20.891541+00<br/>Last seen: 2026-01-16 09:47:47.513776+00</description>
+      <Style>
+        <IconStyle>
+          <color>ff14b8a6</color>
+          <scale>1.17</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-122.0540,37.3928,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SocialGuest (8)</name>
+      <description>SSID: SocialGuest<br/>BSSID OUI: 58:61:63<br/>Reports: 8<br/>First seen: 2025-12-21 07:59:11.515791+00<br/>Last seen: 2025-12-21 09:03:49.632963+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.13</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3208,28.5667,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Infinity Rewards (7)</name>
+      <description>SSID: Infinity Rewards<br/>BSSID OUI: 70:85:c4<br/>Reports: 7<br/>First seen: 2025-12-11 15:03:26.938378+00<br/>Last seen: 2025-12-11 15:05:21.109064+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.12</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.4029,28.4957,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>GMR-Free-WIFI (7)</name>
+      <description>SSID: GMR-Free-WIFI<br/>BSSID OUI: 4c:b1:cd<br/>Reports: 7<br/>First seen: 2026-04-25 06:17:27.703732+00<br/>Last seen: 2026-04-25 06:34:55.058659+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.12</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0836,28.5551,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>GMR-Free-WIFI (7)</name>
+      <description>SSID: GMR-Free-WIFI<br/>BSSID OUI: ec:58:ea<br/>Reports: 7<br/>First seen: 2025-12-21 18:55:25.989411+00<br/>Last seen: 2026-03-01 08:26:22.064132+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.12</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0853,28.5546,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Starbucks India (7)</name>
+      <description>SSID: Starbucks India<br/>BSSID OUI: ee:55:b8<br/>Reports: 7<br/>First seen: 2026-01-03 10:21:11.944698+00<br/>Last seen: 2026-02-07 09:33:33.548204+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.12</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>76.5958,27.6906,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>GMR-Free-WIFI (6)</name>
+      <description>SSID: GMR-Free-WIFI<br/>BSSID OUI: 5c:83:6c<br/>Reports: 6<br/>First seen: 2025-12-21 18:32:54.489987+00<br/>Last seen: 2025-12-21 18:35:46.867365+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.10</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0853,28.5545,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>GMR-Free-WIFI (5)</name>
+      <description>SSID: GMR-Free-WIFI<br/>BSSID OUI: d0:4f:58<br/>Reports: 5<br/>First seen: 2025-12-21 19:40:42.190358+00<br/>Last seen: 2025-12-21 19:46:09.404738+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.08</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0831,28.5554,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>FootLockerGuest (5)</name>
+      <description>SSID: FootLockerGuest<br/>BSSID OUI: e2:62:79<br/>Reports: 5<br/>First seen: 2025-12-18 11:01:28.657424+00<br/>Last seen: 2025-12-18 11:02:53.374433+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.08</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3210,28.5680,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>@Miracle Lounge (5)</name>
+      <description>SSID: @Miracle Lounge<br/>BSSID OUI: fc:ec:da<br/>Reports: 5<br/>First seen: 2025-12-25 09:45:03.49429+00<br/>Last seen: 2025-12-25 09:46:19.199793+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.08</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>100.7465,13.6924,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SRPL 5G (5)</name>
+      <description>SSID: SRPL 5G<br/>BSSID OUI: b2:88:1f<br/>Reports: 5<br/>First seen: 2026-02-10 13:53:25.638317+00<br/>Last seen: 2026-03-13 12:18:24.692724+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.08</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>73.2174,22.3323,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>SRPL 5G (4)</name>
+      <description>SSID: SRPL 5G<br/>BSSID OUI: aa:88:1f<br/>Reports: 4<br/>First seen: 2026-03-13 11:34:48.279328+00<br/>Last seen: 2026-03-13 11:35:55.468171+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.07</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>73.2174,22.3323,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Virus-Detected (4)</name>
+      <description>SSID: Virus-Detected<br/>BSSID OUI: 1e:9d:72<br/>Reports: 4<br/>First seen: 2025-12-09 05:53:51.208024+00<br/>Last seen: 2025-12-09 06:05:52.994251+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.07</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-121.9267,37.4010,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TP-Link_EE6C_5G (4)</name>
+      <description>SSID: TP-Link_EE6C_5G<br/>BSSID OUI: 98:da:c4<br/>Reports: 4<br/>First seen: 2025-12-25 18:43:57.310732+00<br/>Last seen: 2025-12-28 15:34:44.27138+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.07</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3768,28.5338,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cafe_B (4)</name>
+      <description>SSID: Cafe_B<br/>BSSID OUI: 00:11:22<br/>Reports: 4<br/>First seen: 2025-12-29 13:27:17.270246+00<br/>Last seen: 2025-12-29 13:30:38.2564+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.07</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>0.0000,0.0000,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>AOT Airport Free Wi-Fi by NT (4)</name>
+      <description>SSID: AOT Airport Free Wi-Fi by NT<br/>BSSID OUI: c8:33:e5<br/>Reports: 4<br/>First seen: 2025-12-25 09:09:58.472273+00<br/>Last seen: 2025-12-25 09:13:27.063531+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.07</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>100.7465,13.6926,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>4G Home WiFi (K10)_404989 (3)</name>
+      <description>SSID: 4G Home WiFi (K10)_404989<br/>BSSID OUI: 54:1f:8d<br/>Reports: 3<br/>First seen: 2025-12-22 03:47:45.057855+00<br/>Last seen: 2025-12-22 03:48:16.204914+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.05</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>100.1622,13.5156,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Encalm Lounge (3)</name>
+      <description>SSID: Encalm Lounge<br/>BSSID OUI: 4c:b1:cd<br/>Reports: 3<br/>First seen: 2026-04-25 06:36:10.227877+00<br/>Last seen: 2026-04-25 06:37:17.690548+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.05</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0836,28.5551,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>   .@ FreeTRUEWIFI (3)</name>
+      <description>SSID:    .@ FreeTRUEWIFI<br/>BSSID OUI: c8:33:e5<br/>Reports: 3<br/>First seen: 2025-12-22 01:20:53.608828+00<br/>Last seen: 2025-12-22 01:22:22.903895+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.05</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>100.7489,13.6921,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Chaayos Hi Speed Free WiFi (3)</name>
+      <description>SSID: Chaayos Hi Speed Free WiFi<br/>BSSID OUI: 62:62:8b<br/>Reports: 3<br/>First seen: 2025-12-18 10:39:22.450672+00<br/>Last seen: 2025-12-18 10:42:55.534799+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.05</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3207,28.5676,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Cafe_A (3)</name>
+      <description>SSID: Cafe_A<br/>BSSID OUI: 00:11:22<br/>Reports: 3<br/>First seen: 2025-12-29 13:27:17.235725+00<br/>Last seen: 2025-12-29 13:30:32.739874+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.05</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>0.0000,0.0000,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#WiFi@Changi (2)</name>
+      <description>SSID: #WiFi@Changi<br/>BSSID OUI: 14:16:9d<br/>Reports: 2<br/>First seen: 2026-04-25 13:59:21.38193+00<br/>Last seen: 2026-04-25 14:06:20.179193+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>103.9887,1.3545,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Encalm Lounge (2)</name>
+      <description>SSID: Encalm Lounge<br/>BSSID OUI: c8:08:73<br/>Reports: 2<br/>First seen: 2026-04-25 06:41:37.557601+00<br/>Last seen: 2026-04-25 06:41:46.126191+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0836,28.5551,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>LinkNYC Free Wi-Fi (2)</name>
+      <description>SSID: LinkNYC Free Wi-Fi<br/>BSSID OUI: ec:58:ea<br/>Reports: 2<br/>First seen: 2025-12-29 01:45:47.182457+00<br/>Last seen: 2025-12-29 01:57:33.907445+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-73.9870,40.7544,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>office (2)</name>
+      <description>SSID: office<br/>BSSID OUI: f0:61:c0<br/>Reports: 2<br/>First seen: 2025-12-23 12:08:25.204784+00<br/>Last seen: 2025-12-23 12:08:36.975001+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>99.9571,12.6667,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ShubhitGarg_5G (2)</name>
+      <description>SSID: ShubhitGarg_5G<br/>BSSID OUI: 20:23:51<br/>Reports: 2<br/>First seen: 2025-12-10 14:57:07.437875+00<br/>Last seen: 2025-12-10 16:32:32.420064+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3427,28.5743,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Encalm-Lounge (2)</name>
+      <description>SSID: Encalm-Lounge<br/>BSSID OUI: ec:58:ea<br/>Reports: 2<br/>First seen: 2026-03-01 08:39:25.911874+00<br/>Last seen: 2026-03-01 08:57:07.64062+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0844,28.5540,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TheCenturionLounge (2)</name>
+      <description>SSID: TheCenturionLounge<br/>BSSID OUI: f4:2e:7f<br/>Reports: 2<br/>First seen: 2025-12-29 10:48:16.083131+00<br/>Last seen: 2025-12-29 10:48:26.09547+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-73.7811,40.6434,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>TP-Link_EE6C (2)</name>
+      <description>SSID: TP-Link_EE6C<br/>BSSID OUI: 98:da:c4<br/>Reports: 2<br/>First seen: 2025-12-28 15:35:50.922899+00<br/>Last seen: 2025-12-28 15:36:10.720624+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.3767,28.5338,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>_Free JFK WiFi (2)</name>
+      <description>SSID: _Free JFK WiFi<br/>BSSID OUI: 70:b3:17<br/>Reports: 2<br/>First seen: 2025-12-29 10:33:42.994417+00<br/>Last seen: 2025-12-29 10:33:49.859404+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.03</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-73.7813,40.6437,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>#WiFi@Changi (1)</name>
+      <description>SSID: #WiFi@Changi<br/>BSSID OUI: cc:7f:75<br/>Reports: 1<br/>First seen: 2026-04-25 13:58:38.557886+00<br/>Last seen: 2026-04-25 13:58:38.557886+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.02</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>103.9886,1.3539,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>ArriveHome (1)</name>
+      <description>SSID: ArriveHome<br/>BSSID OUI: 10:c4:ca<br/>Reports: 1<br/>First seen: 2025-12-17 15:15:52.69661+00<br/>Last seen: 2025-12-17 15:15:52.69661+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.02</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-90.3530,38.6304,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>GMR-Free-WIFI (1)</name>
+      <description>SSID: GMR-Free-WIFI<br/>BSSID OUI: 90:3a:72<br/>Reports: 1<br/>First seen: 2026-02-03 12:55:32.814651+00<br/>Last seen: 2026-02-03 12:55:32.814651+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.02</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>77.0855,28.5534,0</coordinates></Point>
+    </Placemark>
+    <Placemark>
+      <name>Hutton Hotel (1)</name>
+      <description>SSID: Hutton Hotel<br/>BSSID OUI: d4:68:4d<br/>Reports: 1<br/>First seen: 2026-01-01 00:27:48.079913+00<br/>Last seen: 2026-01-01 00:27:48.079913+00</description>
+      <Style>
+        <IconStyle>
+          <color>fff59e0b</color>
+          <scale>1.02</scale>
+          <Icon><href>http://maps.google.com/mapfiles/kml/shapes/wifi.png</href></Icon>
+        </IconStyle>
+      </Style>
+      <Point><coordinates>-86.7969,36.1529,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
